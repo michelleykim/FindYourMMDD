@@ -1,6 +1,6 @@
 import { Form, Link } from "react-router-dom";
 
-export default function Roaster() {
+export default function Roster() {
 	const contact = {
 		first: "Your",
 		last: "Name",
@@ -13,7 +13,7 @@ export default function Roaster() {
 	return (
 		<>
 			<div id="sidebar">
-				<h1>Class Roaster</h1>
+				<h1>Class Roster</h1>
 			</div>
 
 			<Link to={`/game`}>Let&apos;s Start!</Link>

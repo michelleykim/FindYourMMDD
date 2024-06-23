@@ -9,7 +9,7 @@ export default function Root() {
 			</div>
 			<Link to={`/game`}>Let&apos;s Start!</Link>
 			<br></br>
-			<Link to={`/roaster`}>Class Roaster</Link>
+			<Link to={`/roster`}>Class Roster</Link>
 		</>
 	);
 }

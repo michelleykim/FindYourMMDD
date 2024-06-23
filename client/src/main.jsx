@@ -5,7 +5,7 @@ import "./index.css";
 import Root from "./routes/root.jsx";
 import ErrorPage from "./components/error-page.jsx";
 import Game from "./routes/game.jsx";
-import Roaster from "./routes/roaster.jsx";
+import Roster from "./routes/roster.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
 		element: <Game />,
 	},
 	{
-		path: "/roaster",
-		element: <Roaster />,
+		path: "/roster",
+		element: <Roster />,
 	},
 ]);
 

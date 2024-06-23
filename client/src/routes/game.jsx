@@ -16,7 +16,7 @@ export default function Game() {
 				<h1>Find Your MMDD!</h1>
 			</div>
 
-			<Link to={`/roaster`}>Class Roaster</Link>
+			<Link to={`/roster`}>Class Roster</Link>
 		</>
 	);
 }
