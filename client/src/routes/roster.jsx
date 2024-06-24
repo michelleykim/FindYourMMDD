@@ -1,19 +1,18 @@
 import { Form, Link } from "react-router-dom";
+import studentRoster from "../assets/roster.json";
 
 export default function Roster() {
-	const contact = {
-		first: "Your",
-		last: "Name",
-		avatar: "https://robohash.org/you.png?size=200x200",
-		twitter: "your_handle",
-		notes: "Some notes",
-		favorite: true,
-	};
+	const students = studentRoster.students;
 
 	return (
 		<>
-			<div id="sidebar">
+			<div>
 				<h1>Class Roster</h1>
+				<div>
+					{students.map((student) => (
+						<Frame key={student.name} student={student} />
+					))}
+				</div>
 			</div>
 
 			<Link to={`/game`}>Let&apos;s Start!</Link>
@@ -21,17 +20,11 @@ export default function Roster() {
 	);
 }
 
-function Favorite({ contact }) {
-	const favorite = contact.favorite;
+function Frame({ student }) {
 	return (
-		<Form method="post">
-			<button
-				name="favorite"
-				value={favorite ? "false" : "true"}
-				aria-label={favorite ? "Remove from favorites" : "Add to favorites"}
-			>
-				{favorite ? "★" : "☆"}
-			</button>
-		</Form>
+		<div>
+			<h1>{student.name}</h1>
+			<img src={student.photo} alt={`${student.name}`} />
+		</div>
 	);
 }
