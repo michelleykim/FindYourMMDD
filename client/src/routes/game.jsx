@@ -1,51 +1,81 @@
-import { Form, Link } from "react-router-dom";
 import studentRoster from "../assets/roster.json";
 import { useState } from "react";
 
 export default function Game() {
 	const students = studentRoster.students;
 
-	let [target, setTarget] = useState([]);
 	let [score, setScore] = useState(0);
 
 	const getRandomStudents = (count, max) => {
 		const target = new Set();
 		while (target.size < count) {
 			const randomNum = Math.floor(Math.random() * max);
-			target.add(students[randomNum]);
+			target.add(students[randomNum].name);
 		}
 		return Array.from(target);
 	};
 
-	let targetStudents = getRandomStudents(5, students.length);
+	let targetStudents = getRandomStudents(3, students.length);
 
 	const checkCorrect = (name) => {
 		// check if the student.name is in the targetStudents list
-		console.log(name);
 		if (targetStudents.includes(name)) {
 			// do something
+			alert(`You found ${name}!`);
+			setScore((prevScore) => prevScore + 1);
 		}
+	};
+
+	const frames = {
+		display: "flex",
+		flexDirection: "row",
+		flexWrap: "wrap",
+		justifyContent: "space-between",
+		textAlign: "center",
+		width: "100%",
+	};
+	const photo = {
+		borderRadius: "1em",
+		margin: "1em",
+		width: "8vw",
+		height: "12vw",
+		objectFit: "cover",
+	};
+	const footer = {
+		position: "fixed",
+		left: 0,
+		bottom: 0,
+		width: "100%",
+		backgroundColor: "rgba(255, 255, 255, 0.8)",
+		boxShadow: "0 -2px 5px rgba(0, 0, 0, 0.1)",
+	};
+	const names = {
+		display: "flex",
+		flexDirection: "row",
+		justifyContent: "space-evenly",
+		fontSize: "1.6em",
 	};
 
 	return (
 		<>
 			<div id="sidebar">
 				<h1>Find Your MMDD!</h1>
-				<div>
+				<h2>MMDDs&apos; found: {score}</h2>
+				<div style={frames}>
 					{students.map((student) => (
 						<div key={student.name} onClick={() => checkCorrect(student.name)}>
-							<img src={student.photo} alt={student.name} />
+							<img style={photo} src={student.photo} alt={student.name} />
 						</div>
 					))}
 				</div>
-				<div>
-					{targetStudents.map((student) => (
-						<p key={student.name}>{student.name}</p>
-					))}
+				<div style={footer}>
+					<div style={names}>
+						{targetStudents.map((student) => (
+							<p key={student}>{student}</p>
+						))}
+					</div>
 				</div>
 			</div>
-
-			<Link to={`/roster`}>Class Roster</Link>
 		</>
 	);
 }

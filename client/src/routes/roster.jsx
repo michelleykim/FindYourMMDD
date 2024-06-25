@@ -60,6 +60,11 @@ export default function Roster() {
 					Let&apos;s Start!
 				</Link>
 			</div>
+			<div>
+				{
+					// add details view- as a component
+				}
+			</div>
 		</>
 	);
 }
