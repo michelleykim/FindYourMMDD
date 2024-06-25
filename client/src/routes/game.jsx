@@ -6,6 +6,7 @@ export default function Game() {
 	const students = studentRoster.students;
 
 	let [target, setTarget] = useState([]);
+	let [score, setScore] = useState(0);
 
 	const getRandomStudents = (count, max) => {
 		const target = new Set();
@@ -21,6 +22,9 @@ export default function Game() {
 	const checkCorrect = (name) => {
 		// check if the student.name is in the targetStudents list
 		console.log(name);
+		if (targetStudents.includes(name)) {
+			// do something
+		}
 	};
 
 	return (
@@ -43,20 +47,5 @@ export default function Game() {
 
 			<Link to={`/roster`}>Class Roster</Link>
 		</>
-	);
-}
-
-function Favorite({ contact }) {
-	const favorite = contact.favorite;
-	return (
-		<Form method="post">
-			<button
-				name="favorite"
-				value={favorite ? "false" : "true"}
-				aria-label={favorite ? "Remove from favorites" : "Add to favorites"}
-			>
-				{favorite ? "★" : "☆"}
-			</button>
-		</Form>
 	);
 }
