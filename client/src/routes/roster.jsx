@@ -22,7 +22,7 @@ export default function Roster() {
 
 function Frame({ student }) {
 	return (
-		<div>
+		<div className="frame">
 			<h1>{student.name}</h1>
 			<img src={student.photo} alt={`${student.name}`} />
 		</div>
