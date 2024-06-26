@@ -29,19 +29,17 @@ const button = {
 
 export default function Root() {
 	return (
-		<>
-			<div style={content}>
-				<h1 style={title}>Find Your MMDD!</h1>
-				<h2 style={subTitle}>Can you get&apos;em all?</h2>
-				<div style={buttonGroup}>
-					<Link style={button} to={`/game`}>
-						Let&apos;s Start!
-					</Link>
-					<Link style={button} to={`/roster`}>
-						Class Roster
-					</Link>
-				</div>
+		<div style={content}>
+			<h1 style={title}>Find Your MMDD!</h1>
+			<h2 style={subTitle}>Can you get&apos;em all?</h2>
+			<div style={buttonGroup}>
+				<Link style={button} to={`/game`}>
+					Let&apos;s Start!
+				</Link>
+				<Link style={button} to={`/roster`}>
+					Class Roster
+				</Link>
 			</div>
-		</>
+		</div>
 	);
 }

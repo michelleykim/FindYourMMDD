@@ -1,50 +1,234 @@
 {
 	"students": [
-		{ "name": "Alex LIU", "photo": "/MMDD/alex l.png" },
-		{ "name": "Arianna LI", "photo": "/MMDD/arianna l.png" },
-		{ "name": "AShley HU", "photo": "/MMDD/ashley h.png" },
-		{ "name": "Chris MA", "photo": "/MMDD/chris m.png" },
-		{ "name": "Daisy WAN", "photo": "/MMDD/daisy w.png" },
-		{ "name": "Deborah DU", "photo": "/MMDD/deborah d.png" },
-		{ "name": "Emily CHEN", "photo": "/MMDD/emily c.png" },
-		{ "name": "Evan REES-WIEDEMANN", "photo": "/MMDD/evan r w.png" },
-		{ "name": "Genevieve SUTHERNS", "photo": "/MMDD/genevieve s.png" },
-		{ "name": "Hari ARNEJA", "photo": "/MMDD/hari a.png" },
-		{ "name": "Isobel DAWSON", "photo": "/MMDD/isobel d.png" },
-		{ "name": "Ivran RAI", "photo": "/MMDD/ivran r.png" },
-		{ "name": "James LOUI-YING", "photo": "/MMDD/james l y.png" },
-		{ "name": "Janice CHEN", "photo": "/MMDD/janice c.png" },
-		{ "name": "Jason LI", "photo": "/MMDD/jason l.png" },
-		{ "name": "Joshua BARBOSA", "photo": "/MMDD/joshua b.png" },
-		{ "name": "Julia BERKA", "photo": "/MMDD/julia b.png" },
-		{ "name": "Juliette DESVAUX", "photo": "/MMDD/juliette d.png" },
-		{ "name": "Justin YAM", "photo": "/MMDD/justin y.png" },
-		{ "name": "Kailey CHELSWICK", "photo": "/MMDD/kailey c.png" },
-		{ "name": "Katie KATHIRESAN", "photo": "/MMDD/katie k.png" },
-		{ "name": "Kaya SHIMIZU", "photo": "/MMDD/kaya s.png" },
-		{ "name": "Krish SRIDAR", "photo": "/MMDD/krish s.png" },
-		{ "name": "Lakshanyaa GANESH", "photo": "/MMDD/lakshanyaa g.png" },
-		{ "name": "Leen NASER", "photo": "/MMDD/leen n.png" },
-		{ "name": "Leo TREPANIER", "photo": "/MMDD/leo t.png" },
-		{ "name": "Madeleine MEIER", "photo": "/MMDD/madeleine m.png" },
-		{ "name": "Malika AGARWAL", "photo": "/MMDD/malika a.png" },
-		{ "name": "Mary JIM-AKAYA", "photo": "/MMDD/mary j a.png" },
-		{ "name": "Maya LAPPIN", "photo": "/MMDD/maya l.png" },
-		{ "name": "Mel CHEUNG", "photo": "/MMDD/mel c.png" },
-		{ "name": "Michelle KIM", "photo": "/MMDD/michelle k.jpg" },
-		{ "name": "Mona SATO", "photo": "/MMDD/mona s.png" },
-		{ "name": "Nivedita PARIKH", "photo": "/MMDD/nivedita p.png" },
-		{ "name": "Nora JIN", "photo": "/MMDD/nora j.png" },
-		{ "name": "Queenie Chen", "photo": "/MMDD/queenie c.png" },
-		{ "name": "Rahma AL FAHOUM", "photo": "/MMDD/rahma al f.png" },
-		{ "name": "Rowan CHILDS", "photo": "/MMDD/rowan c.png" },
-		{ "name": "Sebastian M SOTOMAYOR", "photo": "/MMDD/sebastian m.png" },
-		{ "name": "Sophie SALAS", "photo": "/MMDD/sophie s.png" },
-		{ "name": "Stefanie YAO", "photo": "/MMDD/stefanie y.png" },
-		{ "name": "Stephanie CHEN", "photo": "/MMDD/stephanie c.png" },
-		{ "name": "Tabreek SOMANI", "photo": "/MMDD/tabreek s.png" },
-		{ "name": "Tasfiyah KABIR", "photo": "/MMDD/tasfiyah k.png" },
-		{ "name": "Terisa DANG", "photo": "/MMDD/terisa d.png" },
-		{ "name": "Zezheng XU", "photo": "/MMDD/zezheng x.png" }
+		{
+			"name": "Alex LIU",
+			"photo": "/MMDD/alex l.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Arianna LI",
+			"photo": "/MMDD/arianna l.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Ashley HU",
+			"photo": "/MMDD/ashley h.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Chris MA",
+			"photo": "/MMDD/chris m.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Daisy WAN",
+			"photo": "/MMDD/daisy w.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Deborah DU",
+			"photo": "/MMDD/deborah d.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Emily CHEN",
+			"photo": "/MMDD/emily c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Evan REES-WIEDEMANN",
+			"photo": "/MMDD/evan r w.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Genevieve SUTHERNS",
+			"photo": "/MMDD/genevieve s.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Hari ARNEJA",
+			"photo": "/MMDD/hari a.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Isobel DAWSON",
+			"photo": "/MMDD/isobel d.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Ivran RAI",
+			"photo": "/MMDD/ivran r.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "James LOUI-YING",
+			"photo": "/MMDD/james l y.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Janice CHEN",
+			"photo": "/MMDD/janice c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Jason LI",
+			"photo": "/MMDD/jason l.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Joshua BARBOSA",
+			"photo": "/MMDD/joshua b.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Julia BERKA",
+			"photo": "/MMDD/julia b.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Juliette DESVAUX",
+			"photo": "/MMDD/juliette d.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Justin YAM",
+			"photo": "/MMDD/justin y.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Kailey CHELSWICK",
+			"photo": "/MMDD/kailey c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Katie KATHIRESAN",
+			"photo": "/MMDD/katie k.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Kaya SHIMIZU",
+			"photo": "/MMDD/kaya s.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Krish SRIDAR",
+			"photo": "/MMDD/krish s.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Lakshanyaa GANESH",
+			"photo": "/MMDD/lakshanyaa g.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Leen NASER",
+			"photo": "/MMDD/leen n.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Leo TREPANIER",
+			"photo": "/MMDD/leo t.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Madeleine MEIER",
+			"photo": "/MMDD/madeleine m.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Malika AGARWAL",
+			"photo": "/MMDD/malika a.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Mary JIM-AKAYA",
+			"photo": "/MMDD/mary j a.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Maya LAPPIN",
+			"photo": "/MMDD/maya l.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Mel CHEUNG",
+			"photo": "/MMDD/mel c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Michelle KIM",
+			"photo": "/MMDD/michelle k.jpg",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Mona SATO",
+			"photo": "/MMDD/mona s.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Nivedita PARIKH",
+			"photo": "/MMDD/nivedita p.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Nora JIN",
+			"photo": "/MMDD/nora j.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Queenie Chen",
+			"photo": "/MMDD/queenie c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Rahma AL FAHOUM",
+			"photo": "/MMDD/rahma al f.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Rowan CHILDS",
+			"photo": "/MMDD/rowan c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Sebastian M SOTOMAYOR",
+			"photo": "/MMDD/sebastian m.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Sophie SALAS",
+			"photo": "/MMDD/sophie s.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Stefanie YAO",
+			"photo": "/MMDD/stefanie y.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Stephanie CHEN",
+			"photo": "/MMDD/stephanie c.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Tabreek SOMANI",
+			"photo": "/MMDD/tabreek s.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Tasfiyah KABIR",
+			"photo": "/MMDD/tasfiyah k.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Terisa DANG",
+			"photo": "/MMDD/terisa d.png",
+			"quote": "Nice to meet you!"
+		},
+		{
+			"name": "Zezheng XU",
+			"photo": "/MMDD/zezheng x.png",
+			"quote": "Nice to meet you!"
+		}
 	]
 }
