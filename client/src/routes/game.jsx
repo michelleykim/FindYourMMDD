@@ -2,6 +2,9 @@ import { useNavigate } from "react-router-dom";
 import studentRoster from "../assets/roster.json";
 import { useState } from "react";
 
+const header = {
+	textAlign: "center",
+};
 const frames = {
 	display: "flex",
 	flexDirection: "row",
@@ -66,7 +69,7 @@ export default function Game() {
 	};
 
 	return (
-		<div id="sidebar">
+		<div style={header}>
 			<h1>Find Your MMDD!</h1>
 			<h2>MMDDs&apos; found: {score}</h2>
 			<div style={frames}>
